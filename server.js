@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const fs = require('fs');
-const DATA_FILE ='data.json';
+const DATA_FILE = path.join(_dirname,'data.json');
 const app = express();
 const port = process.env.PORT || 3000;
 
